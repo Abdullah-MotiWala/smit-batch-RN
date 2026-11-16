@@ -1,0 +1,34 @@
+/* p,q,h1 { */
+/* font-weight: 1000;
+    background-color: blue;
+    color: white; */
+/* background-color: green !important; */
+/* } */
+
+/* form {} */
+
+/* .heading {
+  background-color: pink;
+}
+
+#organization {
+  background-color: blue;
+} */
+
+h2.heading {
+  background-color: blue;
+}
+
+h2 {
+  background-color: yellow;
+}
+
+* {
+  /* background-color: blue; */
+  /* margin: 1px;
+    border: white 1px solid; */
+}
+
+div#one p {
+  background-color: blue;
+}
