@@ -15,20 +15,51 @@
   background-color: blue;
 } */
 
-h2.heading {
+/* h2.heading {
   background-color: blue;
 }
 
 h2 {
   background-color: yellow;
-}
+} */
 
-* {
+/* * { */
   /* background-color: blue; */
   /* margin: 1px;
     border: white 1px solid; */
+/* } */
+
+/* div#one p {
+  background-color: blue;
+} */
+
+
+/* TYPE Selector */
+/* p {
+  background-color: pink;
+} */
+
+/* ID Selector */
+#myId {
+  /* Name */
+  /* background-color: blue; */
+
+  /* RGB */
+  /* background-color: rgb(255,0,0); */
+  /* background-color: rgba(255, 0, 0,1); */
+
+  /* HSL */
+  /* background-color: hsl(0, 100%, 50%) */
+  /* background-color: hsla(0, 100%, 50%,0.5) */
+
+  /* HEX Code */
+  /* background-color: #000; */
 }
 
-div#one p {
-  background-color: blue;
-}
+/* .affan {
+  background-color: yellow;
+} */
+
+/* h2.affan {
+  background-color: green;
+} */
