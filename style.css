@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face{
+  font-family: 'ibad';
+  src: url("AgravePro-VariableFont_wght.ttf");
+}
+
 /* p,q,h1 { */
 /* font-weight: 1000;
     background-color: blue;
@@ -63,3 +69,64 @@ h2 {
 /* h2.affan {
   background-color: green;
 } */
+
+body {
+  /* font-family: "Roboto","serif";  */
+  /* font-family: "ibad"; */
+}
+
+div#two > p {
+  /* font-family: "ibad"; */
+  font-family: "Roboto";
+  /* font-size: 2em; */
+  font-weight: 900;
+  font-style: oblique;
+}
+p#transform::first-letter {
+  text-transform: capitalize;
+}
+
+p#transform::first-line {
+  color: pink;
+}
+p#transform {
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+  /* text-decoration: line-through; */
+  line-height: 24px;
+  /* letter-spacing: 4px; */
+  word-spacing: 6px;
+  text-align: justify;
+  text-indent: 12px;
+  text-shadow: -1px 0px 0px red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: orange;
+  /* color: #000; */
+}
+
+a:visited {
+  color: pink;
+}
+
+
+button {
+  background-color: burlywood;
+}
+
+button:hover{
+    background-color: rgb(247, 179, 90);
+  }
+  
+  button:active {
+  background-color: rgb(231, 134, 7);
+}
+
+input:focus {
+outline: 0;
+}
